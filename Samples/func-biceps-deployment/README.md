@@ -24,7 +24,7 @@ New-AzResourceGroup -Name $resourceGroupName -Location 'WestEurope'
 New-AzResourceGroupDeployment -Name 'Deploy1' -ResourceGroupName $resourceGroupName -TemplateFile '.\azure-function.bicep' -TemplateParameterObject $params
 ```
 - Result
-![Resources](./images/resources.png)
+![Resources](./Images/resources.png)
 
 ## Part 2:
 - Switch an existing function app to consumption plan mode (currently not possible via Azure Portal).
