@@ -1,0 +1,21 @@
+{
+  "scriptFile": "ConfigurationValidation.ps1",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "Request",
+      "methods": [
+        "post"
+      ],
+      "route": "configuration/validation"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "Response",
+      "dataType": "string"
+    }
+  ]
+}

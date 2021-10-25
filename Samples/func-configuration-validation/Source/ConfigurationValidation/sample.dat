@@ -1,0 +1,10 @@
+{
+    "$schema": "schema...",
+    "server": {
+        "id": 1,
+        "name": "server1",
+        "space": 512,
+        "memory": 16,
+        "os": "windows"
+    }
+}

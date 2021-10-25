@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/svengrav/azure-lab/develop/samples/func-configuration-validation/server.schema.json",
+    "server": {
+        "id": 1,
+        "name": "server1",
+        "space": 512,
+        "memory": 16,
+        "os": "Windows"
+    }
+}
